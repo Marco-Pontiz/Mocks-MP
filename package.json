@@ -1,0 +1,27 @@
+{
+  "name": "Mocks-MP",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.0",
+    "normalizr": "^3.6.2",
+    "socket.io": "^4.5.4",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "description": ""
+}
